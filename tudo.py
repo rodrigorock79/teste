@@ -1,4 +1,8 @@
-class Teste
+class Teste:
 
-    def soma(soma: str):
-      print(soma)
+    def soma(self):
+        
+        x = 1
+        y = 2
+        r = x + y
+        return r
